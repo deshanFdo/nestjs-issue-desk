@@ -12,7 +12,7 @@ npm run build
 npm start
 ```
 
-Open http://127.0.0.1:3001/docs for Swagger UI, or http://127.0.0.1:3001/docs-json for the OpenAPI document. By default the app uses **PGlite**, an embedded PostgreSQL engine, and persists data in `.data/`. Copy `.env.example` to `.env` to customise the port or data directory. Use `npm run dev` for watch mode.
+Open http://127.0.0.1:3001/docs for Swagger UI, or http://127.0.0.1:3001/docs-json for the OpenAPI document. By default the app uses **PGlite**, an embedded PostgreSQL engine, and persists data in `.data/`. Copy `.env.example` to `.env` to customise the port or data directory. For watch mode, run `npm run dev` in one terminal and `npm run start:watch` in another after the first build. Compiling with TypeScript preserves the decorator metadata used by Nest dependency injection.
 
 ## Use a PostgreSQL server
 
